@@ -3,6 +3,7 @@
 {
   # https://devenv.sh/basics/
   env.GREET = "devenv";
+  env.REPO = "github.com/napo2k/devenv-test";
 
   # https://devenv.sh/packages/
   packages = [ pkgs.git pkgs.gopls ];
